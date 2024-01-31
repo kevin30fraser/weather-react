@@ -40,7 +40,7 @@ function App() {
       <input type="text" placeholder="Search" onChange={handleInput}
         className="rounded-md h-6 text-sm mt-2 mb-1 px-5 py-2 outline-none"></input>
       <br />
-      <button onClick={getdata} className="bg-black text-white rounded-md px-5 py-2 text-xs mt-2">Get Report</button>
+      <button onClick={getdata} className="bg-black text-white rounded-md px-5 py-2 text-xs mt-2">Get Report ⚡</button>
       <p className="text-xs mt-2">Degree: {deg} | City: {city} | Weather: {desc}</p>
     </div>
   </div>);
